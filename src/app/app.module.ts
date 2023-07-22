@@ -16,6 +16,7 @@ import { PastTrainingComponent } from './training/past-training/past-training.co
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { StopTrainingComponent } from './training/current-training/stop-training.component';
 
 
 
@@ -31,6 +32,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     WelcomeComponent,
     HeaderComponent,
     SidenavListComponent,
+    StopTrainingComponent
 
   ],
   imports: [
@@ -40,7 +42,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     MaterialModule,
     FlexLayoutModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
